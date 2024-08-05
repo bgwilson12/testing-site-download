@@ -1,0 +1,1 @@
+(function(n){"use strict";n(function(){if(n(".message").length>0)n('[data-close="message"]').on("click",function(t){t.preventDefault();n(this).closest(".wp-header-container").find(".message").removeClass("in");n(".wp-header-container").removeClass("alert-open").addClass("alert-closed");n("#mainCarousel").length>0&&n("#mainCarousel").removeClass("alert-open")})})})(jQuery)

@@ -1,0 +1,1 @@
+(function(n){"use strict";n(".wp-footer.new .social-net a").on("click",function(t){n(this).blur();t.stopPropagation()})})(jQuery)
